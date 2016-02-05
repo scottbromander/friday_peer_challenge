@@ -48,8 +48,7 @@ function createIndexPoints(array, $el){
     //create something visual, Divs will work
     for(var i = 0; i < array.length; i++){
         //we need i, 1 for each element
-        $el.append("<div class='index-point' id='index" + i + "'></div>")
-
+        $el.append("<div class='index-point' id='index" + i + "'></div>");
     }
 }
 
